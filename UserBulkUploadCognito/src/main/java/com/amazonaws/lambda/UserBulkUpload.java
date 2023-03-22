@@ -23,11 +23,11 @@ import com.opencsv.bean.CsvToBeanBuilder;
 
 public class UserBulkUpload implements RequestHandler<Object, String> {
 
-	private String AccessKey = "AKIAYUCMZEDM5Q3UW7ZH";
-	private String SecretKey = "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";
+	private String AccessKey = "";
+	private String SecretKey = "";
 
-	private String AppClientId = "6t097jurf8m5rhj6gh2cklmik8";
-	private String password = "Btech@99";
+	private String AppClientId = "";
+	private String password = "";
 
 	@Override
 	public String handleRequest(Object input, Context context) {
